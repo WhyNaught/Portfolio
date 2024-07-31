@@ -32,12 +32,14 @@ li a {
 
 .connections {
     text-align: left;
-    margin-left: 50px;
+    margin-left: 10%;
     padding: 20px;
     border-radius:25px;
     background-color: #000C40;
     width: 30%;
     margin-top: 50px;
+    display: flex; 
+    flex-direction: column;
 }
 
 .connections h2 {
@@ -45,9 +47,8 @@ li a {
 }
 
 .social-links {
-    padding-left: 23px;
     display: flex;
-    text-align: center;
+    justify-content: center;
 }
 
 .social-logo {
