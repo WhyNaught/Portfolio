@@ -2,7 +2,7 @@ function SocialLink({socialURL, socialImage}) {
     return (
         <li>
             <a href ={socialURL}>
-                <img className = { socialImage === "src/assets/github-logo.png" ? "github-logo" : "social-logo"} src = {socialImage}></img>
+                <img className = { socialImage === "public/assets/github-logo.png" ? "github-logo" : "social-logo"} src = {socialImage}></img>
             </a>
         </li>
     )
@@ -18,10 +18,10 @@ export default function Home() {
                 <h2>Let's Connect!</h2>
                 <div className = "links-box">
                     <ul className = "social-links">
-                        <SocialLink className = "social-link" socialURL = "https://www.linkedin.com/in/umar-farooq-a8b237278/" socialImage = "src/assets/LinkedIn-Logo.png"/>
-                        <SocialLink className = "social-link"socialURL= "https://www.instagram.com/__umar_f/" socialImage="src/assets/insta_logo.png"/>
-                        <SocialLink className = "social-link"socialURL= "https://github.com/WhyNaught" socialImage= "src/assets/github-logo.png"/>
-                        <SocialLink className = "social-link"socialURL = "https://discordapp.com/users/522924427642404874" socialImage="src/assets/discord-logo.png"/>
+                        <SocialLink className = "social-link" socialURL = "https://www.linkedin.com/in/umar-farooq-a8b237278/" socialImage = "public/assets/LinkedIn-Logo.png"/>
+                        <SocialLink className = "social-link"socialURL= "https://www.instagram.com/__umar_f/" socialImage="public/assets/insta_logo.png"/>
+                        <SocialLink className = "social-link"socialURL= "https://github.com/WhyNaught" socialImage= "public/assets/github-logo.png"/>
+                        <SocialLink className = "social-link"socialURL = "https://discordapp.com/users/522924427642404874" socialImage="public/assets/discord-logo.png"/>
                     </ul>
                 </div>
             </div>
