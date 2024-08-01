@@ -1,3 +1,5 @@
+import {Link, useMatch, useResolvedPath} from "react-router-dom"
+
 function SocialLink({socialURL, socialImage}) {
     return (
         <li>
@@ -20,9 +22,9 @@ export default function Home() {
                         Nice to meet you! I'm an aspiring software engineer entering the University
                         of Waterloo for Computer Science this fall. 
                     </h3>
-                    <a href = "/about-me">
+                    <Link to = "/about-me" className="learn-more-link">
                         <button className="learn-more">Learn More</button>
-                    </a>
+                    </Link>
                 </div>
                 <div className = "connections">
                     <h2>Let's Connect!</h2>
