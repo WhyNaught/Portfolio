@@ -4,7 +4,8 @@ export default function AboutMe() {
             <h1>About Me</h1>
             <img className = "pfp" src = '/assets/square_pfp.png' alt = "Profile Picture"></img>
             <p className="about-me-description">
-                I'm Umar, a 17 year old with a passion for grand strategy games and trains.
+                I'm Umar, a first year computer science major at the University of Waterloo. When I'm not developing software,
+                I'm either playing bass guitar, playing stategy games, or watching anime. 
             </p>
         </div>
     )
